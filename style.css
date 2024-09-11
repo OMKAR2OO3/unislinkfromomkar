@@ -1,0 +1,895 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containerr {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.request {
+  border: 10px solid red;
+  background-color: red;
+  display: flex;
+  justify-content: end;
+  height: 40px;
+  padding-bottom: 30px;
+}
+.request a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  margin-top: 5px;
+  text-transform: capitalize;
+  margin-left: 20px;
+}
+.request a:last-child {
+  margin-right: 12%;
+}
+
+.navbarstart {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  margin-top: 22px;
+}
+.navbar a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  margin-right: 45px;
+  font-size: 17px;
+}
+
+.bgimg img {
+  width: 100%;
+}
+.bgtext {
+  position: absolute;
+  top: 70px;
+}
+.bgtext span {
+  display: block;
+}
+.mission {
+  color: white;
+  padding-top: 200px;
+}
+.mission h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 50px;
+  margin-left: 150px;
+}
+.every h3 {
+  padding-top: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  line-height: 30px;
+  padding-left: 150px;
+  color: white;
+  padding-top: 40px;
+}
+
+.learn {
+  padding-left: 150px;
+  padding-top: 80px;
+}
+
+.learn a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  border: 15px solid red;
+  color: white;
+  background-color: red;
+}
+
+.unislink p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+}
+
+.whoweare h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: xx-large;
+}
+
+.unislink span {
+  display: block;
+}
+.unislink {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: large;
+  line-height: 25px;
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rowfirst1 {
+  flex-basis: 48%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.rowfirst1 img {
+  width: 100px;
+  height: 100px;
+}
+
+.rowfirst1 h5 {
+  color: #007fb7;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: large;
+  padding-bottom: 10px;
+}
+
+.rowfirst1 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  line-height: 25px;
+}
+
+.section5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section5 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 150px;
+}
+
+.section5 a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: red;
+  padding-bottom: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.docter img {
+  width: 400px;
+  height: 400px;
+  margin-top: 120px;
+}
+
+.server span {
+  display: block;
+}
+.server h2 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 100px;
+  font-weight: 300;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.server p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20px;
+}
+.server > span {
+  display: block;
+}
+
+.server > h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin: 30px;
+  text-align: center;
+}
+.threerows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.healthcare {
+  flex-basis: 30%;
+  margin-bottom: 10px;
+}
+.healthcare img {
+  width: 100px;
+}
+.healthcare h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+}
+.threerows > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 20px;
+  padding-right: 10px;
+}
+
+.threerows a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: red;
+  margin-top: 10px;
+}
+
+.Programs span {
+  display: block;
+}
+.our {
+  display: flex;
+  justify-content: space-between;
+}
+.our img {
+  margin-top: 80px;
+}
+.Programs h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: xx-large;
+  text-align: left;
+  margin-top: 80px;
+}
+.business {
+  margin-top: 100px;
+}
+.business h3 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+.business p {
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.business h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: smaller;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.business a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  border: 10px solid red;
+  background-color: red;
+  margin-top: 30px;
+}
+
+.population span {
+  display: block;
+}
+.population {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.managing {
+  display: flex;
+  flex-direction: column;
+}
+
+.managing h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.managing p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  line-height: 20px;
+}
+
+.managing h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: medium;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.managing a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: red;
+  margin-top: 30px;
+  border: 10px solid red;
+  width: 100px;
+}
+
+.Edge span {
+  display: block;
+}
+.theedge h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 60px;
+}
+
+.theedge p {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.twocolumn .column::before {
+  content: "\f058";
+  font-family: "Font Awesome 6 Free";
+  position: relative;
+  top: 20px;
+  right: 20px;
+  color: #1589ba;
+}
+
+.twocolumn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+.column {
+  flex-basis: 50%;
+  margin-top: 20px;
+}
+.column h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.column p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.LikeNothing span {
+  display: block;
+}
+
+.LikeNothing h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 40px;
+}
+.threecoloum {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.tworows {
+  flex-basis: 33.33;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tworows h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: large;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.tworows p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.make span {
+  display: block;
+}
+.make h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: xx-large;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.make p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+}
+.make h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.unislinkModules span {
+  display: inline-block;
+}
+
+.Modules {
+  display: flex;
+  margin-left: 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.unislinkModules {
+  flex-basis: 40%;
+}
+.unislinkModules img {
+  width: 50px;
+  position: relative;
+  right: 60px;
+  top: 60px;
+}
+.unislinkModules h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.unislinkModules p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.throught h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: x-large;
+  margin-block: 30px;
+}
+.Report {
+  display: flex;
+}
+.Track {
+  flex-basis: 28%;
+  margin-block: 40px;
+  margin-left: 60px;
+}
+.Track img {
+  max-width: 100%;
+}
+.Track h5 {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.Track p {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.Track:hover {
+  background-color: rgb(245, 245, 220);
+  transform: scale(1.05);
+  transition: background-color 0.5s linear;
+}
+.Track a {
+  font-family: "Roboto", sans-serif;
+  display: block;
+  text-decoration: none;
+  color: red;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.view a {
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  background-color: red;
+  color: #ffffff;
+  border: 10px solid red;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+.howcan h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  font-size: xx-large;
+}
+.Demo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.endtworows {
+  flex-basis: 40%;
+  text-align: center;
+  background-color: rgb(245, 245, 220);
+  height: 300px;
+  box-shadow: 10px 10px 5px rgba(245, 245, 220, 0.5);
+}
+.endtworows img {
+  width: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.endtworows h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: larger;
+}
+.endtworows p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.endtworows .red {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: red;
+  border: 10px solid red;
+  color: white;
+}
+.endtworows .blue {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: #1589ba;
+  border: 10px solid#1589ba;
+  color: #ffffff;
+}
+
+.bottom {
+  margin-top: 100px;
+}
+
+.bottomimg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.aboutbottom p {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #1589ba;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.aboutbottom a {
+  display: block;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #000000;
+}
+.contactbottom p {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #1589ba;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.contactbottom a {
+  display: block;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #000000;
+}
+
+.contactbottom > .email {
+  color: red;
+}
+.contactbottom > .avenue {
+  color: #000000;
+  border-top: 1px solid gray;
+  margin-top: 30px;
+}
+.avenue span {
+  display: block;
+  margin-top: 20px;
+}
+.connectbottom > .connect {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #1589ba;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.connectbottom .sign {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.connectbottom .email {
+  height: 30px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.connectbottom .bt {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  height: 30px;
+  width: 60px;
+  background-color: red;
+  color: #ffffff;
+  border: 5px solid red;
+  border-radius: 2px;
+}
+.copyrights {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.copyrights > span {
+  display: block;
+  color: #cccccc;
+  padding: 10px;
+}
+.icon {
+  margin-top: 30px;
+}
+.fa-square-twitter {
+  background-color: red;
+  border: 10px solid red;
+  color: #ffffff;
+  border-radius: 25px;
+}
+.fa-linkedin {
+  background-color: red;
+  border: 10px solid red;
+  color: #ffffff;
+  border-radius: 25px;
+}
+.fa-envelope {
+  background-color: red;
+  border: 10px solid red;
+  color: #ffffff;
+  border-radius: 25px;
+}
+/* 1 */
+@media all and (max-width: 768px) {
+  .request a {
+    font-size: 13px;
+  }
+  .request a:last-child {
+    margin-right: 6%;
+  }
+}
+/* 2 */
+@media all and (max-width: 768px) {
+  .logo img {
+    width: 100px;
+    margin-top: 5px;
+  }
+  .navbar {
+    margin-top: 12px;
+  }
+
+  .navbar a {
+    font-size: 13px;
+    margin-right: 20px;
+  }
+  .containerr {
+    max-width: 90%;
+  }
+}
+/* 3 */
+@media all and (max-width: 768px) {
+  .mission {
+    padding-top: 100px;
+  }
+  .mission h1 {
+    line-height: 30px;
+    margin-left: 75px;
+    font-size: 20px;
+  }
+  .every h3 {
+    font-size: 15px;
+    padding-left: 75px;
+  }
+  .learn {
+    padding-left: 75px;
+    padding-top: 40px;
+  }
+  .learn a {
+    border-width: 8px;
+    font-size: 10px;
+  }
+  .unislink p {
+    text-align: center;
+  }
+}
+/* 4 */
+@media all and (max-width: 768px) {
+  .whoweare h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .containerr {
+    max-width: 90%;
+  }
+}
+/* 5 */
+@media all and (max-width: 768px) {
+  .rowfirst1 {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
+/* 6 */
+@media all and (max-width: 768px) {
+  .section5 {
+    display: block;
+  }
+  .docter img {
+    width: 400px;
+    height: 400px;
+    margin-left: 110px;
+    /* position: relative;
+    right: 60%;
+    top: 0; */
+  }
+  .section5 p {
+    margin-left: 70px;
+    /* position: absolute;
+    bottom: 10px; */
+  }
+  .section5 a {
+    /* position: absolute; */
+    margin-left: 135px;
+  }
+}
+/* 7 */
+@media all and (max-width: 768px) {
+  .healthcare {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
+/* 8 */
+@media all and (max-width: 768px) {
+  .our {
+    display: block;
+    text-align: center;
+  }
+  .Programs h2 {
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+/* 9 */
+@media all and (max-width: 768px) {
+  .population {
+    display: block;
+    text-align: center;
+  }
+  .Programs h2 {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .managing a {
+    margin-left: 40%;
+    margin-bottom: 20px;
+  }
+}
+/* 10 */
+@media all and (max-width: 768px) {
+  .theedge {
+    text-align: center;
+  }
+  .twocolumn .column::before {
+    content: none;
+  }
+}
+/* 11 */
+@media all and (max-width: 768px) {
+  .column {
+    flex-basis: 100%;
+  }
+  .column h4 {
+    text-align: center;
+  }
+  .column p {
+    text-align: center;
+  }
+}
+/* 12 */
+@media all and (max-width: 768px) {
+  .tworows {
+    flex-basis: 100%;
+  }
+}
+/* 13 */
+@media all and (max-width: 768px) {
+  .make h2,
+  p,
+  h4 {
+    text-align: center;
+  }
+  .make h3 {
+    margin-left: 40%;
+  }
+
+  .unislinkModules {
+    flex-basis: 100%;
+  }
+  .unislinkModules img {
+    width: 70px;
+    top: 10px;
+    left: 40%;
+    margin-block: 10px;
+  }
+}
+/* 14 */
+@media all and (max-width: 768px) {
+  .Report {
+    display: block;
+  }
+  .Track h5 {
+    text-align: center;
+    margin-right: 40px;
+  }
+  .Track p {
+    margin-right: 40px;
+  }
+  .Track a {
+    text-align: center;
+    margin-right: 40px;
+  }
+  .Track img {
+    margin-left: 10%;
+    transform: translate(50px, 10px);
+  }
+}
+/* 15 */
+@media all and (max-width: 768px) {
+  .view a {
+    margin-left: 230px;
+  }
+}
+/* 16 */
+@media all and (max-width: 768px) {
+  .Demo {
+    display: block;
+  }
+}
+/* 17 */
+@media all and (max-width: 768px) {
+  .bottomimg {
+    display: block;
+  }
+
+  .bottomimg {
+    text-align: center;
+  }
+}
